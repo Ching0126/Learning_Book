@@ -154,7 +154,15 @@ int open(char *pathname, int flags)
 
 参数：
 
-​	pathname: 欲打开的文件路径名
+​	pathname: 欲打开的文件
+
+
+![img](https://cdn.nlark.com/yuque/0/2021/png/12581134/1631198074617-6a2c270e-b37a-4698-bb86-9b816e5347de.png)
+
+
+
+
+路径名
 
 ​	flags：文件打开方式：	#include <fcntl.h>
 
@@ -189,7 +197,7 @@ int open(char *pathname, int flags)
 ​	成功： 打开文件所得到对应的 文件描述符（整数）
 
 ​	失败： -1， 设置errno	
-
+   
 ![img](https://cdn.nlark.com/yuque/0/2021/png/12581134/1631156145724-1b1f13cc-f5b8-4fd9-8f9d-babb6fd8426e.png)
 
 
@@ -388,7 +396,7 @@ PCB进程控制块：本质 结构体。
 ​	open("/dev/tty", O_RDWR | O_NONBLOCK)	--- 设置 /dev/tty 非阻塞状态。(默认为阻塞状态)
 
 
-
+bbbbbb
 更改非阻塞读取终端——超时设置
 
 ```c
